@@ -3,7 +3,9 @@ In fact, there is currently an issue with the docker-compose.yml file for this p
 
 I have tried to automate the building of the docker containers by adding .sh scripts and hooks to the docker-compose.yml file. Until this is fixed (and I will update the readme) when it is please refer to fruty's setup instructions and docker-compose file. 
 
-Next I will try to add a json field to postgres and allow the contents to be edited. This will be a menu for a real-life burger restaurant.
+I have now decided to backport the changes I have made from https://github.com/affluent-bilby-classifieds/react-admin-and-postgraphile-playground so the docker configuration will get updated to include the scripts in that project accordingly.
+
+
 
 This project uses [ra-data-simple-rest](https://github.com/marmelab/react-admin/tree/master/packages/ra-data-simple-rest) for the data privider. That wasn't obvious to me at first. You will find the source code in the readme is very similar to the code used here.
 
