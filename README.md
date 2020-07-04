@@ -23,7 +23,7 @@ The first step is to 'git clone' the repo.
 In this case:
 
 ```
-git clone https://github.com/affluent-bilby-classifieds/fruty_ra-cb-menu.git
+git clone https://github.com/affluent-bilby-classifieds/prisma_ra-cb-menu.git
 ```
 
 change to the directory:
