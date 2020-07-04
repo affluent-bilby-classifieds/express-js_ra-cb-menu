@@ -118,7 +118,7 @@ Inside the container now run:
 
 
 ```
-psql --username=fruty
+psql --username=postgres
 
 ```
 
