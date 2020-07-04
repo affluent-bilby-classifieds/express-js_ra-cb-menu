@@ -65,6 +65,9 @@ You should see it go something like this:
 Install dependencies for front and back:
 
 ```
+cd..
+```
+```
 docker-compose run front /bin/sh
 ```
 ```
