@@ -18,6 +18,10 @@ services:
       - "3001:3000"
     environment:
       REACT_EDITOR: atom
+      PGUSER: ${PG_USER}
+      PGPASSWORD: ${PG_PASSWORD}
+      PGDATABASE: ${PG_DATABASE}
+      PGHOST: postgres
     volumes:
      - ./front:/home/app
 
