@@ -1,7 +1,5 @@
 Please note: Although I am a seasoned tech guy I am quite a novice as a developer. If you experience issues with this project please try the original at: https://github.com/francoisruty/fruty_react-admin
-In fact, there is currently an issue with the docker-compose.yml file for this particular fork so it won't build. I plan to fix this soon. I have also uploaded a docker-compose.json file. This is where we will experiment with auto-building. You can use either YAML or JSON files with docker.
 
-I have tried to automate the building of the docker containers by adding .sh scripts and hooks to the docker-compose.yml file. Until this is fixed (and I will update the readme) when it is please refer to fruty's setup instructions and docker-compose file. 
 
 I have now decided to backport the changes I have made from https://github.com/affluent-bilby-classifieds/react-admin-and-postgraphile-playground so the docker configuration will get updated to include the scripts in that project accordingly.
 
@@ -35,16 +33,25 @@ cd prisma_ra-cb-menu
 ```
 
 
-You may need to add execute permission to build.sh
+You may need to add execute permission to the build scripts.
 
 ```
-chmod +x build.sh
+cd scripts
 ```
-In the next part we load the docker-compose.yml file to build our containers.
+
 
 ```
-docker-compose up -d
+chmod +x *.sh
 ```
+In the next part we load the docker-compose.yml file to build our containers and to do this we run the up script and get this party started:
+
+```
+./up.sh
+```
+You should see it go something like this:
+
+![Screenshot](sc1.png)
+
 
 Install dependencies for front and back:
 
