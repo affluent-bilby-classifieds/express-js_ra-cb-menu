@@ -50,7 +50,7 @@ In the next part we load the docker-compose.yml file to build our containers and
 ```
 You should see it go something like this:
 
-![Screenshot](sc1.png)
+![Screenshot](sc3.png)
 
 
 Install dependencies for front and back:
