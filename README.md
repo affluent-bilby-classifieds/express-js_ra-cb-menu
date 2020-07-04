@@ -45,9 +45,11 @@ chmod +x *.sh
 ```
 
 install jq
+
 ```
 sudo apt-get install jq -y
---
+
+```
 
 
 In the next part we load the docker-compose.yml file to build our containers and to do this we run the up script and get this party started:
