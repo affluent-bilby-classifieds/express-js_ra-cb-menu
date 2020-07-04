@@ -113,7 +113,7 @@ You should get:
 {"result":"user created."}
 
 This uses express.js (in the server.js file) to add a line to the users table. The password is hashed with bcrypt.
-The users table as well as the other provided tables are built on demand using the seed.sql file. Then fixtures.sql fills
+The users table as well as the other provided tables are built on demand using the seed.sql file. After this the fixtures.sql fills
 the tables with example data.
 
 
