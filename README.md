@@ -29,7 +29,7 @@ git clone https://github.com/affluent-bilby-classifieds/prisma_ra-cb-menu.git
 change to the directory:
 
 ```
-cd fruty_ra-cb-menu
+cd prisma_ra-cb-menu
 ```
 
 
