@@ -112,7 +112,7 @@ curl -X POST http://localhost:3000/api/create_user -H 'Cache-Control: no-cache' 
 You should get:
 {"result":"user created."}
 
-
+This uses express.js (in the server.js file) to add a line to the users table. The password is hashed with bcrypt.
 
 
 All containers should now be up, and you can go to http://localhost:3000 in your browser.
