@@ -117,7 +117,6 @@ You should get:
 
 All containers should now be up, and you can go to http://localhost:3000 in your browser.
 
-Import the json table for the menu:
 
 ```
 docker-compose exec postgres /bin/bash
