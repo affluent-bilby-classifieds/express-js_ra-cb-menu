@@ -118,20 +118,6 @@ You should get:
 All containers should now be up, and you can go to http://localhost:3000 in your browser.
 
 
-```
-docker-compose exec postgres /bin/bash
-```
-Inside the container now run:
-
-
-
-
-
-
-```
-psql --username=postgres
-
-```
 
 
 ### Verifications
