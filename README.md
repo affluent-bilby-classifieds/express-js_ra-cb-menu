@@ -114,7 +114,7 @@ You should get:
 
 This uses express.js (in the server.js file) to add a line to the users table. The password is hashed with bcrypt.
 The users table as well as the other provided tables a built on demand using the seed.sql file. Then fixtures.sql fills
-the tables with example table.
+the tables with example data.
 
 
 All containers should now be up, and you can go to http://localhost:3000 in your browser.
