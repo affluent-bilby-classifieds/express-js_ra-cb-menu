@@ -43,7 +43,7 @@ export const ContactEdit = (props) => (
 export const ContactCreate = (props) => (
     <Create title="Create a Contact" {...props}>
         <SimpleForm>
-            <TextInput source="email" />
+         
             <TextInput source="companyname" />
            
             <TextInput source="firstname" />
