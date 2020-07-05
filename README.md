@@ -4,7 +4,7 @@ Please note: Although I am a seasoned tech guy I am quite a novice as a develope
 Having said that you are welcome to lodge support Issues here and I will help you as much as I can.
 
 
-I have now decided to backport the changes I have made from https://github.com/affluent-bilby-classifieds/react-admin-and-postgraphile-playground so the docker configuration will get updated to include the scripts in that project accordingly.
+I have now decided to backport the changes I have made from https://github.com/affluent-bilby-classifieds/react-admin-and-postgraphile-playground so the docker configuration will get updated to include the scripts and resources in that project accordingly.
 
 
 
