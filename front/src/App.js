@@ -22,6 +22,13 @@ const dataProvider = simpleRestProvider(window.location.origin + '/api', httpCli
 const App = () => (
   <Admin dataProvider={dataProvider} authProvider={authProvider}>
     <Resource name="items" list={ItemList} edit={ItemEdit} create={ItemCreate} />
+    
+    <Resource
+                    name="contacts"
+                    list={ContactList}
+                    edit={ContactEdit}
+                    create={ContactCreate}
+                />
   </Admin>
 );
 
