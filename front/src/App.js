@@ -3,6 +3,7 @@ import React from 'react';
 import {fetchUtils, Admin, Resource} from 'react-admin';
 import { ItemList, ItemEdit, ItemCreate } from './items';
 import authProvider from './authProvider';
+import { ContactList, ContactEdit, ContactCreate } from './Contacts'
 
 import simpleRestProvider from 'ra-data-simple-rest';
 
