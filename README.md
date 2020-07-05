@@ -1,3 +1,5 @@
+# This project uses postgres as a database for React-admin dataproviders.
+
 Please note: Although I am a seasoned tech guy I am quite a novice as a developer. If you experience issues with this project please try the original at: https://github.com/francoisruty/fruty_react-admin
 
 
