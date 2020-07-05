@@ -13,7 +13,7 @@ This project uses [ra-data-simple-rest](https://github.com/marmelab/react-admin/
 
 We are going to add supabase as a data-provider too. That is on the future development roadmap.
 
-The back-end uses [Express](https://github.com/auth0/express), [Express-jwt](https://github.com/auth0/express-jwt) and [express-jwt-authz](https://github.com/auth0/express-jwt-authz) and I have received a message that jwt requires security updates.
+The back-end uses [Express](https://github.com/auth0/express), [Express-jwt](https://github.com/auth0/express-jwt) and [express-jwt-authz](https://github.com/auth0/express-jwt-authz).
 
 
 
