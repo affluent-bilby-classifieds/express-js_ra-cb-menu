@@ -26,13 +26,13 @@ The first step is to 'git clone' the repo.
 In this case:
 
 ```
-git clone https://github.com/affluent-bilby-classifieds/prisma_ra-cb-menu.git
+git clone https://github.com/affluent-bilby-classifieds/express-js_ra-cb-menu.git
 ```
 
 change to the directory:
 
 ```
-cd prisma_ra-cb-menu
+cd express-js_ra-cb-menu
 ```
 
 
