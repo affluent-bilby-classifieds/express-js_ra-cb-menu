@@ -198,6 +198,9 @@ All containers should now be up, and you can go to http://localhost:3000 in your
 
 We have just signed up for the [Supabase.io](https://github.com/supabase/supabase) public alpha!
 
+- Please note that you need to write a nextJS CRUD reoute for each resource:
+"All code in this repo was written by me so yes the routes are from me, and yes, for each resource you need to write CRUD routes" -Fruty
+
 - we use a nginx load-balancer in front of the dev server, so that we can easily route
 API calls to the back docker container, without messing with front dev server parameters.
 
